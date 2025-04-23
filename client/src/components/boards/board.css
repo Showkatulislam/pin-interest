@@ -1,0 +1,24 @@
+.boards{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    gap: 16px;
+}
+.board{
+    margin-bottom: 32px;
+    cursor: pointer;
+}
+.board img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+.boardinfo{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.boardinfo h1{
+    font-size: 14px;
+    font-weight: 500;
+}

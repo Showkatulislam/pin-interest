@@ -1,0 +1,26 @@
+.commentForm {
+    background-color: #f1f1f1;
+    padding: 16px;
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .commentForm input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 16px;
+  }
+.emoji{
+    cursor: pointer;
+    font-size: 20px;
+    position: relative;
+}
+.emojiPicker{
+    position: absolute;
+    bottom: 60px;
+    right: 0;
+}

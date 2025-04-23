@@ -1,0 +1,18 @@
+.postInteractive{
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+.interactiveIcons{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.postInteractive button{
+    border: none;
+    padding: 12px 16px;
+    background-color: red;
+    color:white;
+    border-radius: 32px;
+}

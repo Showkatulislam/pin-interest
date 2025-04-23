@@ -1,0 +1,60 @@
+.profilePage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.avatar{
+    border-radius: 100%;
+}
+.profileName{
+    font-size: 36px;
+    font-weight: 500;
+}
+.profileUsername{
+    font-size: 16px;
+    color: gray;
+}
+.postInteractive{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.interactiveBtn{
+    display: flex;
+    align-items: center;
+}
+.interactiveBtn button{
+ background-color:transparent;
+ color: black;
+}   
+.interactiveBtn button:last-child{
+    background: red;
+    color: white;
+}
+.profileOptions{
+    display: flex;
+    gap: 16px;;
+}
+.profileOptions {
+    display: flex;
+    gap: 16px;
+    margin-top: 32px;
+    margin-bottom: 16px;
+    font-weight: 500;
+  }
+  .profileOptions span {
+    cursor: pointer;
+    padding: 8px 0px;
+  }
+  .profileOptions span:hover {
+    color: gray;
+  }
+  .active {
+    border-bottom: 3px solid black;
+  }
+  
+  .interactiveBtn button:last-child:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }

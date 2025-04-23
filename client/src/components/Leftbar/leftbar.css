@@ -1,0 +1,33 @@
+.leftbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0px;
+    width: 72px;
+    height: 100vh;
+    border-right: 1px solid #E4E6EB;
+    position: sticky;
+    top: 0;
+}
+.menuIcons{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+
+.menuIcon{
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menuIcon:hover {
+    background-color: #f1f1f1;
+  }
+.logo{
+    width: 24px;
+    height: 24px;
+}

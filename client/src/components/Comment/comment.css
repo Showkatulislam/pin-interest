@@ -1,0 +1,21 @@
+.comment{
+    display: flex;
+    gap: 16px;
+}
+.comment img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+.commentContent{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.commentContentUserName{
+    font-weight: 500;
+    font-size: 14px;
+}
+.des{
+    font-size: 14px;
+}
